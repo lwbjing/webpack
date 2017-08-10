@@ -29,7 +29,6 @@ If port 8080 is already in use on your machine you must change the port number i
   - Webpack + `vue-loader` for single file Vue components.
   - State preserving hot-reload
   - State preserving compilation error overlay
-  - Lint-on-save with ESLint
   - Source maps
 
 - `npm run build`: Production ready build.
@@ -39,16 +38,6 @@ If port 8080 is already in use on your machine you must change the port number i
   - All static assets compiled with version hashes for efficient long-term caching, and a production `index.html` is auto-generated with proper URLs to these generated assets.
   - Use `npm run build --report`to build with bundle size analytics.
 
-- `npm run unit`: Unit tests run in PhantomJS with [Karma](http://karma-runner.github.io/0.13/index.html) + [Mocha](http://mochajs.org/) + [karma-webpack](https://github.com/webpack/karma-webpack).
-  - Supports ES2015+ in test files.
-  - Supports all webpack loaders.
-  - Easy mock injection.
-
-- `npm run e2e`: End-to-end tests with [Nightwatch](http://nightwatchjs.org/).
-  - Run tests in multiple browsers in parallel.
-  - Works with one command out of the box:
-    - Selenium and chromedriver dependencies automatically handled.
-    - Automatically spawns the Selenium server.
 
 ### Fork It And Make Your Own
 
